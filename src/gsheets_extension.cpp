@@ -56,10 +56,13 @@ static void LoadInternal(ExtensionLoader &loader) {
 #else
 static void LoadInternal(DatabaseInstance &db) {
 #endif
+
+#ifndef EMSCRIPTEN
 	// Initialize OpenSSL
 	SSL_library_init();
 	SSL_load_error_strings();
 	OpenSSL_add_all_algorithms();
+#endif
 
 	// Register read_gsheet table function
 	TableFunction read_gsheet_function("read_gsheet", {LogicalType::VARCHAR}, ReadSheetFunction, ReadSheetBind);
