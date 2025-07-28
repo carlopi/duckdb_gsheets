@@ -1,4 +1,4 @@
-# name: test/sql/types.test
+# name: test/sql/gsheets/types.test
 # description: test types
 # group: [gsheets]
 

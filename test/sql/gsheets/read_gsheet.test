@@ -1,4 +1,4 @@
-# name: test/sql/read_gsheet.test
+# name: test/sql/gsheets/read_gsheet.test
 # description: test read_gsheet() function
 # group: [gsheets]
 

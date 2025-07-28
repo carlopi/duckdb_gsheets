@@ -1,4 +1,4 @@
-# name: test/sql/read_gsheet_key_file.test
+# name: test/sql/gsheets/read_gsheet_key_file.test
 # description: test use of key_file for auth for read_gsheet() function
 # group: [gsheets]
 

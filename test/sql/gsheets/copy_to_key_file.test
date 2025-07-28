@@ -1,4 +1,4 @@
-# name: test/sql/copy_to_key_file.test
+# name: test/sql/gsheets/copy_to_key_file.test
 # description: test use of key_file for auth to copy to gsheet
 # group: [gsheets]
 
